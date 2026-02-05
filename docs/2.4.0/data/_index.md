@@ -1,6 +1,6 @@
 +++
-title = 'Getting Started'
-linkTitle = 'Getting Started'
+title = 'Data'
+linkTitle = 'Data'
 description = 'Getting started with the Plume theme.'
 weight = 0
 draft = false
