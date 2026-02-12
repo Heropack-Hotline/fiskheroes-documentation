@@ -6,7 +6,6 @@ weight = 0
 draft = false
 +++
 
-## JS Variables
 Within heropacks, we utilize vars, a keyword that automatically detects the data type you provide to it
 
 ### General Basics
