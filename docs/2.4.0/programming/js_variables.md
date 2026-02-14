@@ -6,7 +6,7 @@ weight = 0
 draft = false
 +++
 
-Within heropacks, we utilize vars, a keyword that automatically detects the data type you provide to it
+Within heropacks, we utilize vars, a keyword that automatically detects the data type you provide to it.
 
 ### General Basics
 
