@@ -1,7 +1,7 @@
 +++
 title = 'Giving Your Suit a Texture'
 linkTitle = 'Giving Your Suit a Texture'
-description = 'Getting started with the Plume theme.'
+description = 'Arguably the most important part of making a suit is giving it a skin.'
 weight = 0
 draft = false
 +++
@@ -23,15 +23,15 @@ I also recommend looking through Blockbench's plugins if you decide to use that 
 
 When making your skin remember ambient occlusion. Ambient occlusion is a the lighting conditions should naturally occur when indirect or ambient lighting is cast out (99% of the time the light source comes from above your head, keep that in mind when skinning). Places like under the head or chest will be darker as they are more obscured by light compared to places like the top of the head or shoulders. Another way to know if you should make certain places lighter or darker is based on depth.
 
-The closer something should be to you the lighter it should be, this helps make flat planes appear to have more shape. Don't forget to account for the material you are skinning and how light interacts with it. And remember to take anatomy into account, using an anatomy reference image like a drawing or even a photo can help. A lot of people forget about the anatomy of a human and just shade the cubes, the cubes are supposed to be something other than just cubes. If you want to try to stick to the style of the mod you can try studying the base mods skins for inspiration, another thing you can do is apply a minor blur to certain colors or noise to the skin (I usually use 10 or less noise).
+The closer something should be to you the lighter it should be, this helps make flat planes appear to have more shape. Don't forget to account for the material you are skinning and how light interacts with it. And remember to take anatomy into account, using an anatomy reference image like a drawing or even a photo can help. A lot of people forget about the anatomy of a human and just shade the cubes, the cubes are supposed to be something other than just cubes. If you want to try to stick to the style of the mod you can try studying the [base mod's](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) skins for inspiration, another thing you can do is apply a minor blur to certain colors or noise to the skin (I usually use 10 or less noise).
 
 ### Item Textures
 
-You can make your item textures using templates found in the base mods texture files `/hotline homepage` and using other item textures as reference. To give your texture the outline, put the template on a layer above your texture and set it to multiply. Then you can adjust as needed. You can put all your textures in `...\\textures\\items\\heroes` and name them `suit_name_0.png` for the helmet, `suit_name_1.png` for the chestplate and so on.
+You can make your item textures using templates found in the [base mod's](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) texture files and using other item textures as reference. To give your texture the outline, put the template on a layer above your texture and set it to multiply. Then you can adjust as needed. You can put all your textures in `...\\textures\\items\\heroes` and name them `suit_name_0.png` for the helmet, `suit_name_1.png` for the chestplate and so on.
 
 ### Layering
 
-Layering your skin can be pretty tricky depending on the skin. The simplest and luckily most common way is to separate the head, chestplate, and boots onto layer 1, and the leggings on to layer 2. Usually the leggings go farther down than how the appear when the full suit is worn, so its smart to make your skin with this in mind. The leggings also often contain the bottom few pixels of texture on the body. If you have a more complicated skin you may need more layers. As always looking at the base mods files `/hotline homepage` can help you with this. Often boots or jackets will need to be separated as the jacket may extend to the legs or even cover the boots. You can place all these files in your `...\\textures\\heroes` folder and even put them in a subfolder to help organize them.
+Layering your skin can be pretty tricky depending on the skin. The simplest and luckily most common way is to separate the head, chestplate, and boots onto layer 1, and the leggings on to layer 2. Usually the leggings go farther down than how the appear when the full suit is worn, so its smart to make your skin with this in mind. The leggings also often contain the bottom few pixels of texture on the body. If you have a more complicated skin you may need more layers. As always looking at the [base mod's](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) files can help you with this. Often boots or jackets will need to be separated as the jacket may extend to the legs or even cover the boots. You can place all these files in your `...\\textures\\heroes` folder and even put them in a subfolder to help organize them.
 
 ### loadTextures
 
@@ -85,7 +85,7 @@ It can be a bit of a logic puzzle but using these if statements in combination w
 
 ### Troubleshooting
 
-If you are having issues with your suit texture make sure to make sure your syntax `/hotline troubleshooting` is correct. If your suit is black and purple it means your texture doesn't exist, you may want to double check your names or check the log.
+If you are having issues with your suit texture make sure to make sure your syntax is correct. If your suit is black and purple it means your texture doesn't exist, you may want to double check your names or check the log.
 
 ### Resources
 

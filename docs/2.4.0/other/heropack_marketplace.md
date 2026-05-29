@@ -1,7 +1,7 @@
 +++
 title = 'Heropack Marketplace'
-linkTitle = 'JS Variables'
-description = 'Written by Candy'
+linkTitle = 'Heropack Marketplace'
+description = 'The marketplace is an in-game online way to browse, install, and update heropacks.'
 weight = 0
 draft = false
 +++

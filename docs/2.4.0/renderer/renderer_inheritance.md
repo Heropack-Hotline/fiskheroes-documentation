@@ -1,7 +1,7 @@
 +++
 title = 'Renderer Inheritance'
 linkTitle = 'Renderer Inheritance'
-description = 'Written by Candy'
+description = 'Inheriting renderer files can cut down on repeat code and optimize your pack.'
 weight = 0
 draft = false
 +++

@@ -1,7 +1,7 @@
 +++
 title = 'File Types'
 linkTitle = 'File Types'
-description = 'Written by SkarMC'
+description = 'Fiskheroes uses several file types for heropacks, different file types can have vastly different syntax and uses.'
 weight = 0
 draft = false
 +++
@@ -10,7 +10,7 @@ Fiskheroes uses several file types for heropacks, different file types can have 
 
 ## JS
 
-JS or JavaScript is probably the most common language you will be using in fiskheroes. JS files are used for data and renderer files. You can find more about the language with `/hotline troubleshooting` and [W3Schools JS](https://www.w3schools.com/js/).
+JS or JavaScript is probably the most common language you will be using in fiskheroes. JS files are used for data and renderer files. You can find more about the language at [W3Schools JS](https://www.w3schools.com/js/).
 
 ### JSON
 

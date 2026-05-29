@@ -1,7 +1,7 @@
 +++
 title = 'Keybind Menus'
 linkTitle = 'Keybind Menus'
-description = 'Written by Candy'
+description = 'Suits in FiskHeroes allow for 5 keybinds for abilities, but what if you need more than 5? Keybind menus allow you to make as many keybinds as you need by nesting them under other keybinds.'
 weight = 0
 draft = false
 +++
@@ -10,7 +10,7 @@ Suits in FiskHeroes allow for 5 keybinds for abilities, but what if you need mor
 
 ### Open/close menu
 
-To make a simple open/close menu you need to make a boolean variable for your menu in your `heropack.json`. Then you can either make it so you have a button for opening and a button for closing, or one button that does both. You can see both in examples below, you can also make the close button only appear when the menu is open and vice versa using `isKeybindEnabled` `/hotline keybind enabled`. This works with function keys `/hotline keybind funcs` to create custom keybinds that execute code to set the boolean variable, then you just use that variable to do whatever you want based on the condition.
+To make a simple open/close menu you need to make a boolean variable for your menu in your `heropack.json`. Then you can either make it so you have a button for opening and a button for closing, or one button that does both. You can see both in examples below, you can also make the close button only appear when the menu is open and vice versa using `isKeybindEnabled`. This works with function keys to create custom keybinds that execute code to set the boolean variable, then you just use that variable to do whatever you want based on the condition.
 
 ```js
 function init(hero) {

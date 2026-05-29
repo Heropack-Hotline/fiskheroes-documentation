@@ -1,7 +1,7 @@
 +++
 title = 'Renderer Effects'
 linkTitle = 'Renderer Effects'
-description = 'Written by Candy'
+description = 'Using renderer effects can add a lot of extra detail to your suits and can range from boosters to custom models.'
 weight = 0
 draft = false
 +++
@@ -10,7 +10,7 @@ Using renderer effects can add a lot of extra detail to your suits and can range
 
 ### Using renderer effects
 
-You can find all the renderer effects and what functions they support from the mapping viewer `/hotline homepage`. Some common ones are `fiskheroes:chest` for female suits breasts, `fiskheroes:capes` for capes, scarfs, and sometimes hair, and `fiskheroes:model` for custom models from tabula. Renderer effects go into your renderer file and are created in the `initEffects` function.
+You can find all the renderer effects and what functions they support from the [mapping viewer](https://github.com/FiskFille/FiskHeroes-Mapping-Viewer/releases). Some common ones are `fiskheroes:chest` for female suits breasts, `fiskheroes:capes` for capes, scarfs, and sometimes hair, and `fiskheroes:model` for custom models from tabula. Renderer effects go into your renderer file and are created in the `initEffects` function.
 
 ```js
 var utils = implement("fiskheroes:external/utils");

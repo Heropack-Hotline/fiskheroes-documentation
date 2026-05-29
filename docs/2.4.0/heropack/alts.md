@@ -1,7 +1,7 @@
 +++
 title = 'Alts'
 linkTitle = 'Alts'
-description = 'Written by Candy'
+description = 'Alts are alternate versions of suits that you can access via the Suit Iterator, they have the same powers and functions as the suit they are an iteration of.'
 weight = 0
 draft = false
 +++

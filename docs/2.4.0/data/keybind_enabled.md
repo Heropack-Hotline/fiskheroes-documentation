@@ -1,7 +1,7 @@
 +++
 title = 'Keybind Enabled'
 linkTitle = 'Keybind Enabled'
-description = 'Written by Candy'
+description = 'The `isKeyBindEnabled` function allows you to make certain abilities that require keybinds conditional.'
 weight = 0
 draft = false
 +++
@@ -29,4 +29,4 @@ function isKeyBindEnabled(entity, keyBind) {
 }
 ```
 
-To use keybind enabled first define the function in the `init` function like shown above. Then you can create the `isKeyBindEnabled` function with `entity, keyBind` as parameters. Inside this function you can use any sort of if-else statement here to return the condition you want based on the modifier. Above a [switch statement](https://www.w3schools.com/js/js_switch.asp) is used but you can also use a [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) or a standard if-else statement to define the conditions. Whatever you choose to use you need to test for the keybind's id and return whatever condition you want. You can see what conditions you can use by looking at the mapping viewer `/hotline homepage`. Now any keybind you defined will only show up if they meet the condition you set.
+To use keybind enabled first define the function in the `init` function like shown above. Then you can create the `isKeyBindEnabled` function with `entity, keyBind` as parameters. Inside this function you can use any sort of if-else statement here to return the condition you want based on the modifier. Above a [switch statement](https://www.w3schools.com/js/js_switch.asp) is used but you can also use a [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) or a standard if-else statement to define the conditions. Whatever you choose to use you need to test for the keybind's id and return whatever condition you want. You can see what conditions you can use by looking at the [mapping viewer](https://github.com/FiskFille/FiskHeroes-Mapping-Viewer/releases). Now any keybind you defined will only show up if they meet the condition you set.

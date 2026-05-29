@@ -1,7 +1,7 @@
 +++
 title = 'Troubleshooting'
 linkTitle = 'Troubleshooting'
-description = 'Written by SkarMC'
+description = 'You will run into a lot of problems as you learn how to heropack. Hopefully this page can help you solve them. If you were looking for something that isnt here make sure to use the feedback button.'
 weight = 0
 draft = false
 +++

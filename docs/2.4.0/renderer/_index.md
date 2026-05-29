@@ -1,9 +1,9 @@
 +++
 title = 'Renderer'
 linkTitle = 'Renderer'
-description = 'Getting started with the Plume theme.'
+description = 'Renderer files control how your suit and it's abilties look.'
 weight = 0
 draft = false
 +++
 
-Getting started with the Plume theme.
+Renderer files control how your suit and it's abilties look.

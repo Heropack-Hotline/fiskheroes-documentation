@@ -1,9 +1,9 @@
 +++
 title = 'Texture'
 linkTitle = 'Texture'
-description = 'Getting started with the Plume theme.'
+description = 'Information on textures for suits and items.'
 weight = 0
 draft = false
 +++
 
-Getting started with the Plume theme.
+Information on textures for suits and items.

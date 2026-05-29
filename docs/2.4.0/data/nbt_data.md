@@ -1,7 +1,7 @@
 +++
 title = 'NBT Data'
 linkTitle = 'NBT Data'
-description = 'Written by Candy'
+description = 'Named Binary Tags or NBT data is a data format Minecraft uses to store information for entities, items, blocks, and more.'
 weight = 0
 draft = false
 +++
@@ -14,7 +14,7 @@ In fiskheroes NBT data can be used to store more permanent data on suits. If you
 
 ### Using NBT data
 
-To access NBT data you first need to tell your suit what item to look for. Usually we assign NBT data to the chestplate unless the suit doesn't have one. Below you can see the `nbt` variable as defined as the NBT data of the currently worn chestplate. You may also notice that this code is in an if statement to make sure this code is run server side. NBT data can cause desync on the client if you don't run it server side. It can also end up effecting multiple suits instead of just one. Here we are using a boolean, you can see what other functions you can use by using the mapping viewer `/hotline homepage` and going to `JS Accesors` then `JSNBT` or `JSDataManager`. We created a boolean NBT tag named `\"used\"` and set it to true, this code will only be run once because once `\"used\"` is set to true it won't go back, and the byte `\"amount\"` will always be set to 3. Most of the time we set NBT data in either a tick handler `/hotline tick handlers` or a function key `/hotline keybind funcs`.
+To access NBT data you first need to tell your suit what item to look for. Usually we assign NBT data to the chestplate unless the suit doesn't have one. Below you can see the `nbt` variable as defined as the NBT data of the currently worn chestplate. You may also notice that this code is in an if statement to make sure this code is run server side. NBT data can cause desync on the client if you don't run it server side. It can also end up effecting multiple suits instead of just one. Here we are using a boolean, you can see what other functions you can use by using the [mapping viewer](https://github.com/FiskFille/FiskHeroes-Mapping-Viewer/releases) and going to `JS Accesors` then `JSNBT` or `JSDataManager`. We created a boolean NBT tag named `\"used\"` and set it to true, this code will only be run once because once `\"used\"` is set to true it won't go back, and the byte `\"amount\"` will always be set to 3. Most of the time we set NBT data in either a tick handler or a function key.
 
 ```js
 hero.setTickHandler((entity, manager) => {

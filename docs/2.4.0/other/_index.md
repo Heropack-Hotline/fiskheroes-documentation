@@ -1,9 +1,9 @@
 +++
 title = 'Other'
 linkTitle = 'Other'
-description = 'Getting started with the Plume theme.'
+description = 'Miscellaneous information.'
 weight = 0
 draft = false
 +++
 
-Getting started with the Plume theme.
+Miscellaneous information.

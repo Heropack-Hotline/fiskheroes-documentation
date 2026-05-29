@@ -1,7 +1,7 @@
 +++
 title = 'Attribute Profiles'
 linkTitle = 'Attribute Profiles'
-description = 'Written by Candy'
+description = 'Attribute profiles allow you to change the stats of a suit dynamically, allowing you to better balance your suit.'
 weight = 0
 draft = false
 +++
@@ -14,7 +14,7 @@ Attribute profiles can be used in many scenarios, most commonly for blades. They
 
 ### Using attribute profiles
 
-Attribute profiles are defined in the data file formatted as `.addAttribute(KEY, VALUE, OPERATOR);`. The key field takes any attribute from the mod which are... `ARROW_DAMAGE, BASE_SPEED, BASE_SPEED_LEVELS, BOW_DRAWBACK, DAMAGE_REDUCTION, FALL_RESISTANCE, FISKTAG_ARMOR, FISKTAG_HEALTH, IMPACT_DAMAGE, JUMP_HEIGHT, KNOCKBACK, MAX_HEALTH, PUNCH_DAMAGE, REACH_DISTANCE, SPRINT_SPEED, STEP_HEIGHT, WEAPON_DAMAGE`. You probably will not be using either of the fisktag related attributes. The value field takes a double for the value of whatever attribute you chose and operator determines whether the value is read as a percent or not. If you set operator to `1` and the value to `0.5` then it reads as 50% if you set operator to `0` and value to `4.0` it reads as 4.0. As always look at the base mod's `/hotline homepage` suits for a general idea of what values these should be set at to keep them balanced.
+Attribute profiles are defined in the data file formatted as `.addAttribute(KEY, VALUE, OPERATOR);`. The key field takes any attribute from the mod which are... `ARROW_DAMAGE, BASE_SPEED, BASE_SPEED_LEVELS, BOW_DRAWBACK, DAMAGE_REDUCTION, FALL_RESISTANCE, FISKTAG_ARMOR, FISKTAG_HEALTH, IMPACT_DAMAGE, JUMP_HEIGHT, KNOCKBACK, MAX_HEALTH, PUNCH_DAMAGE, REACH_DISTANCE, SPRINT_SPEED, STEP_HEIGHT, WEAPON_DAMAGE`. You probably will not be using either of the fisktag related attributes. The value field takes a double for the value of whatever attribute you chose and operator determines whether the value is read as a percent or not. If you set operator to `1` and the value to `0.5` then it reads as 50% if you set operator to `0` and value to `4.0` it reads as 4.0. As always look at the [base mod's](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) suits for a general idea of what values these should be set at to keep them balanced.
 
 ### Default profile
 

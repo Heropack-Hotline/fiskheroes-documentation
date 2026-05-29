@@ -1,7 +1,7 @@
 +++
 title = 'Keybind Funcs'
 linkTitle = 'Keybind Funcs'
-description = 'Written by Candy'
+description = 'Keybind Functions allow you to run code that runs code once depending on the conditions of your choosing.'
 weight = 0
 draft = false
 +++
@@ -18,7 +18,7 @@ For the keybind field, 1-5 is the list of the 5 main keybinds of the mod from to
 
 ### Uses for Keybind Funcs
 
-Using Ant-Man from the base mod as an example. Ant-Man's Giant Mode is controlled by a keybind function. Depending on if the ability is toggled or not, it will toggle to the inverse and sets the size state to -1 or 1 using a ternary operator around if giant mode is activated.
+Using Ant-Man from the [base mod](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) as an example. Ant-Man's Giant Mode is controlled by a keybind function. Depending on if the ability is toggled or not, it will toggle to the inverse and sets the size state to -1 or 1 using a ternary operator around if giant mode is activated.
 
 ```js
 function giantModeKey(player, manager) {

@@ -1,7 +1,7 @@
 +++
 title = 'Renderer Properties'
 linkTitle = 'Renderer Properties'
-description = 'Written by Candy'
+description = 'Renderer properties can really differentiate suits of similar abilities by giving those abilities unique appearances.'
 weight = 0
 draft = false
 +++
@@ -10,7 +10,7 @@ Renderer properties can really differentiate suits of similar abilities by givin
 
 ### Using renderer properties
 
-Unlike renderer effects which are something you are creating, renderer properties configure how something should render. You can find everything you can configure with renderer properties and what you can configure in the mapping viewer `/hotline homepage`. These are most often used to change what beams and trails look like. Renderer properties go into your renderer file in the `initEffects` function, they do not need to be rendered in the `render` function.
+Unlike renderer effects which are something you are creating, renderer properties configure how something should render. You can find everything you can configure with renderer properties and what you can configure in the [mapping viewer](https://github.com/FiskFille/FiskHeroes-Mapping-Viewer/releases). These are most often used to change what beams and trails look like. Renderer properties go into your renderer file in the `initEffects` function, they do not need to be rendered in the `render` function.
 
 ```js
 var utils = implement("fiskheroes:external/utils");
@@ -35,4 +35,4 @@ function initEffects(renderer) {
 }
 ```
 
-Most if not all properties are made easy to configure with the help of the utils external the base mod provides. Above are many examples of properties being used in a suit. The forcefield shows how you would go about configuring a property without the help of the utils file and the rest use the file. You can see each function the utils file contains by looking at the basemod `/hotline homepage` and going to `\\assets\\fiskheroes\\renderers\\heroes\\external\\utils.js` and you can see what fields they take.
+Most if not all properties are made easy to configure with the help of the utils external the [base mod](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) provides. Above are many examples of properties being used in a suit. The forcefield shows how you would go about configuring a property without the help of the utils file and the rest use the file. You can see each function the utils file contains by looking at the basemod and going to `\\assets\\fiskheroes\\renderers\\heroes\\external\\utils.js` and you can see what fields they take.

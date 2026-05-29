@@ -1,7 +1,7 @@
 +++
 title = 'Setting up Sounds'
 linkTitle = 'Setting up Sounds'
-description = 'Written by Candy'
+description = 'Custom sounds can add a lot to a suit and be what makes an ability satisfying to use.'
 weight = 0
 draft = false
 +++
@@ -44,7 +44,7 @@ Going into your `heropack.json` add a sounds portion under `\"packFormat\" : 1,`
 }
 ```
 
-Now in your assets\\domain folder create a new folder named `events` in this folder create another named `sounds`, then in this folder create a .JSON file for each sound file you have. Ex: `sound_name.json`. Inside this .JSON you will define the sound further. Its recommended you look at the base mods events folder for more information. Now the last thing to do is to add the sound to the suit, there are two ways to do this the first is in the data file and the second is in the power file. Use the base mod to figure out which you are supposed to do but most of the time its the power file. If you are doing it in the data file, under ` function init(hero) {` put something like `hero.addSoundEvent(\"SOUND_EVENT\", \"domain:sound_name\");` For the power file under each power should be a `\"soundEvents\"` section, its as simple as changing the name of the sound here.
+Now in your assets\\domain folder create a new folder named `events` in this folder create another named `sounds`, then in this folder create a .JSON file for each sound file you have. Ex: `sound_name.json`. Inside this .JSON you will define the sound further. Its recommended you look at the [base mod's](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) events folder for more information. Now the last thing to do is to add the sound to the suit, there are two ways to do this the first is in the data file and the second is in the power file. Use the [base mod](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) to figure out which you are supposed to do but most of the time its the power file. If you are doing it in the data file, under ` function init(hero) {` put something like `hero.addSoundEvent(\"SOUND_EVENT\", \"domain:sound_name\");` For the power file under each power should be a `\"soundEvents\"` section, its as simple as changing the name of the sound here.
 
 ```json
 {

@@ -1,7 +1,7 @@
 +++
 title = 'Damage Types'
 linkTitle = 'Damage Types'
-description = 'Written by Candy'
+description = 'Through your `heropack.json` you can add custom damage types to make certain heroes deal more or less damage to others.'
 weight = 0
 draft = false
 +++
@@ -10,7 +10,7 @@ Through your `heropack.json` you can add custom damage types to make certain her
 
 ### Default damage types
 
-There are already several damage types you have access to from the base mod, they include... `ATLANTEAN_STEEL, BLUNT, BULLET, CACTUS, COLD, COSMIC, ELECTRICIITY, ENERGY, ETERNIUM, EXPLOSION, FIRE, MAGIC, SHARP, SHURIKEN, SOUND, and THORNS` In order to use these check the base mods `heropack.json` `/hotline homepage` and make sure to use the correct formatting in your data or power file. You can use damage types in damage profles `/hotline damage profiles`.
+There are already several damage types you have access to from the [base mod](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip), they include... `ATLANTEAN_STEEL, BLUNT, BULLET, CACTUS, COLD, COSMIC, ELECTRICIITY, ENERGY, ETERNIUM, EXPLOSION, FIRE, MAGIC, SHARP, SHURIKEN, SOUND, and THORNS` In order to use these check the [base mod's](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) `heropack.json` and make sure to use the correct formatting in your data or power file. You can use damage types in damage profles.
 
 ### Creating your own damage types
 

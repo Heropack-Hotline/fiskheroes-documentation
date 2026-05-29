@@ -1,9 +1,9 @@
 +++
 title = 'Programming'
 linkTitle = 'Programming'
-description = 'Getting started with the Plume theme.'
+description = 'Information on programming in general relating to Heropacking.'
 weight = 0
 draft = false
 +++
 
-Getting started with the Plume theme.
+Information on programming in general relating to Heropacking.

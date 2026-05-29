@@ -1,9 +1,9 @@
 +++
 title = 'Sound'
 linkTitle = 'Sound'
-description = 'Getting started with the Plume theme.'
+description = 'Information on setting up and implementing sounds.'
 weight = 0
 draft = false
 +++
 
-Getting started with the Plume theme.
+Information on setting up and implementing sounds.

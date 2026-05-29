@@ -1,9 +1,9 @@
 +++
 title = 'Data'
 linkTitle = 'Data'
-description = 'Getting started with the Plume theme.'
+description = 'Data files determine what a suit can do and how.'
 weight = 0
 draft = false
 +++
 
-Getting started with the Plume theme.
+Data files determine what a suit can do and how.

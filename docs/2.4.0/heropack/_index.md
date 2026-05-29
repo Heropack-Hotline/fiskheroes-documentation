@@ -1,9 +1,9 @@
 +++
 title = 'Heropack'
 linkTitle = 'Heropack'
-description = 'Getting started with the Plume theme.'
+description = 'The `heropack.json` file is a sort of configuration file that handles alts, sounds, and the name for your heropack.'
 weight = 0
 draft = false
 +++
 
-Getting started with the Plume theme.
+The `heropack.json` file is a sort of configuration file that handles alts, sounds, and the name for your heropack.

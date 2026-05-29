@@ -1,7 +1,7 @@
 +++
 title = 'JS Variables'
 linkTitle = 'JS Variables'
-description = 'Written by Candy'
+description = 'Within heropacks, we utilize vars, a keyword that automatically detects the data type you provide to it.'
 weight = 0
 draft = false
 +++

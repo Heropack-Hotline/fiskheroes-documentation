@@ -1,7 +1,7 @@
 +++
 title = 'Tick Handlers'
 linkTitle = 'Tick Handlers'
-description = 'Written by Candy'
+description = 'Tick handlers allow you to run code that runs constantly depending on conditions of your choosing.'
 weight = 0
 draft = false
 +++
@@ -22,7 +22,7 @@ Within the brackets you now have access to create code that is runs every tick u
 
 ### Uses for tick handlers
 
-Using Doctor Strange from the base mod as an example. Doctor Strange uses a tick handler to keep him from dying to fall damage if the conditions are met (falling at a certain velocity).
+Using Doctor Strange from the [base mod](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) as an example. Doctor Strange uses a tick handler to keep him from dying to fall damage if the conditions are met (falling at a certain velocity).
 
 ```js
 hero.setTickHandler((entity, manager) => {
@@ -33,7 +33,7 @@ hero.setTickHandler((entity, manager) => {
 });
 ```
 
-The condition within the if statement ensures the code isn't run until it is met. Once the condition is met the code inside will run, saving the player from certain death. You can set any data to any value that is allowed within its variable type `/hotline variables`. You can find what variables there are using the mapping viewer `/hotline homepage`. You can also set NBT data `/hotline nbt data` or even print to chat.
+The condition within the if statement ensures the code isn't run until it is met. Once the condition is met the code inside will run, saving the player from certain death. You can set any data to any value that is allowed within its variable type. You can find what variables there are using the [mapping viewer](https://github.com/FiskFille/FiskHeroes-Mapping-Viewer/releases). You can also set NBT data or even print to chat.
 
 ```js
 if (entity.is("PLAYER") && !entity.is("DISPLAY")) {

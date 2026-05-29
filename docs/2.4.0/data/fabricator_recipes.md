@@ -1,7 +1,7 @@
 +++
 title = 'Fabricator Recipes'
 linkTitle = 'Fabricator Recipes'
-description = 'Written by Candy'
+description = 'To make your suits survival friendly they need to have recipes so players can obtain them.'
 weight = 0
 draft = false
 +++
@@ -22,4 +22,4 @@ Either go to or create the folder chain `../assets/domain/data/fabricator/recipe
 
 ### What should your recipe be?
 
-Figuring out what the cost of your suit should be can be tricky, try to think about how powerful your suit is and look at other similar suits recipes in the base mod `/hotline homepage` to get an idea on what to set your recipe to. You can also make it cost something extra if you want, for instance you could put a dragon egg as a material required, this would mean only one of these suits can exist on a server.
+Figuring out what the cost of your suit should be can be tricky, try to think about how powerful your suit is and look at other similar suits recipes in the [base mod](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) to get an idea on what to set your recipe to. You can also make it cost something extra if you want, for instance you could put a dragon egg as a material required, this would mean only one of these suits can exist on a server.

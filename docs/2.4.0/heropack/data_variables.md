@@ -1,16 +1,16 @@
 +++
 title = 'Data Variables'
 linkTitle = 'Data Variables'
-description = 'Written by Candy'
+description = 'Using data variables you can create custom timers and toggles for individual suits.'
 weight = 0
 draft = false
 +++
 
-Using data variables you create custom timers and toggles for individual suits.
+Using data variables you can create custom timers and toggles for individual suits.
 
 ### Data var types
 
-The data variable types you have access to are as follows... `BOOLEAN`, `BYTE`, `DOUBLE`, `DOUBLE_INTERP`, `FLOAT`, `FLOAT_INTERP`, `INTEGER`, `LONG`, `SHORT`, and `STRING`. `DOUBLE_INTERP` and `FLOAT_INTERP` are interpolated versions of their respective data types to be used for rendering. For more information on what each data type does view `/hotline variables`.
+The data variable types you have access to are as follows... `BOOLEAN`, `BYTE`, `DOUBLE`, `DOUBLE_INTERP`, `FLOAT`, `FLOAT_INTERP`, `INTEGER`, `LONG`, `SHORT`, and `STRING`. `DOUBLE_INTERP` and `FLOAT_INTERP` are interpolated versions of their respective data types to be used for rendering.
 
 ### Using data vars
 
@@ -33,4 +33,4 @@ The most common use which is shown twice here is for timers, but you can use the
 
 ### Accessing data vars
 
-You can access custom data variables just about anywhere. Similar to how you would access base mod variables like `\"fiskheroes:shield_timer\"` you access your custom variables by using `\"your_domain:dyn/your_variable\"` making sure you add `dyn/` before the actual name of your variable. Once accessed you can compare or even change the value by using `manager.setData` or `manager.incrementData`.
+You can access custom data variables just about anywhere. Similar to how you would access [base mod](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) variables like `\"fiskheroes:shield_timer\"` you access your custom variables by using `\"your_domain:dyn/your_variable\"` making sure you add `dyn/` before the actual name of your variable. Once accessed you can compare or even change the value by using `manager.setData` or `manager.incrementData`.

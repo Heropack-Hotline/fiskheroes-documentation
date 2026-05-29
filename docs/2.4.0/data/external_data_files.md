@@ -1,7 +1,7 @@
 +++
 title = 'External Data Files'
 linkTitle = 'External Data Files'
-description = 'Written by Candy'
+description = 'Externals within data files can be used to simplify code or provide universal code that can be used on multiple suits without changing every single instance or just using bloated code.'
 weight = 0
 draft = false
 +++
@@ -10,7 +10,7 @@ Externals within data files can be used to simplify code or provide universal co
 
 ### Creating external
 
-Assuming you already know the directories setup, create a JS script within `data/heroes/externals`. For this tutorial I will be using Iron Man from the base mod as an example. Iron Man from the base mod uses the superhero landing tick handler external. You can refer to  `/hotline tick handler` if unsure how a tick handler works.
+Assuming you already know the directories setup, create a JS script within `data/heroes/externals`. For this tutorial I will be using Iron Man from the [base mod](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) as an example. Iron Man from the [base mod](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) uses the superhero landing tick handler external.
 
 ```js
 function tick(entity, manager) {
@@ -32,7 +32,7 @@ The name of the variable doesn't necesarily matter, but ensure that whatever the
 
 ### External data files continued
 
-While the previous page was just one example of using externals, there are other ways to use it, like using a function to set isModifierEnabled or isKeybindEnabled's default. Inside externals, the possibilities to create universal code can be used amongst numerous heroes can be extremely beneficial in the long run. Referencing `super_boost.js` from the base mod, you can see many instances of creating keybinds, or having predefined `isModifierEnabled` or `isKeyBindEnabled` functions that has all of your needs in one place. Inside your external file, creating your `isModifierEnabled` function to only allow the boosted modifier during a condition (see `/hotline modifier enabled` for more information) to create something like the following:
+While the previous page was just one example of using externals, there are other ways to use it, like using a function to set isModifierEnabled or isKeybindEnabled's default. Inside externals, the possibilities to create universal code can be used amongst numerous heroes can be extremely beneficial in the long run. Referencing `super_boost.js` from the [base mod](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip), you can see many instances of creating keybinds, or having predefined `isModifierEnabled` or `isKeyBindEnabled` functions that has all of your needs in one place. Inside your external file, creating your `isModifierEnabled` function to only allow the boosted modifier during a condition to create something like the following:
 
 ```js
 function isModifierEnabled(entity, modifier) {
