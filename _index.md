@@ -1,4 +1,6 @@
-## Welcome to Heropack Hotline
++++
+title = 'Welcome to Heropack Hotline'
++++
 
 ⚠ This website is in beta, please report any issues.
 
