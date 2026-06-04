@@ -24,7 +24,3 @@ A lot of heropackers use similar tools to help them create heropacks, these rang
 * [Audacity](https://www.audacityteam.org)
 
 Please do not try and use generative LLM's such as ChatGPT, it will not know what to do and will stunt your learning. It's recommended you use an extracted version of the [base mod](https://github.com/Heropack-Hotline/heropack-hotline-storage/blob/main/Fiskheroes%202.4.0%20Extracted.zip) to help setup and learn, as the mod is structured exactly like a heropack.
-
-### Heropack template
-
-You can use the `/heropack-template` command to generate a template for a specified version.
