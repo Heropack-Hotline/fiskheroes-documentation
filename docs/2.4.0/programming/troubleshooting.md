@@ -28,11 +28,11 @@ Fiskheroes suffers from memory leaks every time you reload the pack, this is min
 
 ### Accessing logs
 
-You can find the log at `.minecraft\\logs\\latest.log` and use it to find information on what is going wrong with your pack. Newer information is at the bottom and show you why the game crashed, or is using fallback models. Look through it carefully as it's easy to miss information. Try using `ctrl + F` to search for specific suits or keywords.
+You can find the log at `.minecraft/logs/latest.log` and use it to find information on what is going wrong with your pack. Newer information is at the bottom and show you why the game crashed, or is using fallback models. Look through it carefully as it's easy to miss information. Try using `Ctrl + F` to search for specific suits or keywords.
 
 ### Solving errors
 
-If your pack is not functioning as intended and you can't figure out why from either the log or your code, you can try printing debugging messages to find the issue. using `console.log()` you can print variables or messages by putting it inside the parenthesis and it will appear in your log. You can also send the same messages directly to your in-game chat using `entity.as(\"PLAYER\").addChatMessage()`. Keeping your code clean is important to be able to find errors or find code when you need it later. This means using proper indentation and separation between lines. Many IDEs will format code for you with a push of a button, but you can also use online beautifiers to help as you learn.
+If your pack is not functioning as intended and you can't figure out why from either the log or your code, you can try printing debugging messages to find the issue. Using `PackLoader.print()` you can print variables or messages by putting it inside the parenthesis and it will appear in your log. You can also send the same messages directly to your in-game chat using `PackLoader.printChat()` or `entity.as("PLAYER").addChatMessage()`. Keeping your code clean is important to be able to find errors or find code when you need it later. This means using proper indentation and separation between lines. Many IDEs will format code for you with a push of a button, but you can also use online beautifiers to help as you learn.
 
 ### Resources
 
